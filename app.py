@@ -5,5 +5,5 @@ app = Flask(__name__)
 def home():
     return "Hello, welcome to my Dockerized Flask app on AWS!"
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
